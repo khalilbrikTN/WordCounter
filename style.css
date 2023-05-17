@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#text{
+    background-image: inherit;
+    resize: none;
+    font-size: large;
+    color: rgb(0, 0, 0);
+
+    border: 2px black solid;
+    border-radius: 10px;
+
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+
+    padding: 10px 18px;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0;
+
+    font-size: 60px;
+}
+
+ul li {
+    list-style-type: none;
+    padding-right: 15px;
+
+    font-size: 30px;
+
+   
+    display: inline;
+
+}
+
+
+#results{
+    background-color: #edb6a3;
+
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0%;
+
+    padding-top: 0.5%; 
+    padding-bottom: 0.5%; 
+
+    border-radius: 10px;
+}
+
+#numWords, #numChar{
+    background-color: yellow;
+}
